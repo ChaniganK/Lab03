@@ -65,16 +65,3 @@ h3 {
     margin: 0 auto;
 
 }
-
-section {
-    margin: 0 auto;
-    width: 50%;
-    height: auto;
-    float: left;
-}
-
-aside {
-    width: 50%;
-    height: 100%;
-    float: left;
-}
