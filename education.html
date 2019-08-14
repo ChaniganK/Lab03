@@ -14,7 +14,7 @@
             margin-top: 12%;
             text-align: right;
             /* margin-left: 3%; */
-            width: 30%;
+            width: 10%;
             height: auto;
             float: left;
         }
@@ -22,9 +22,40 @@
         aside {
             margin-top: 10%;
             /* margin-left: 10%; */
-            width: 60%;
+            width: 80%;
             height: 100%;
             float: left;
+        }
+
+        #customers {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #636363;
+            padding: 10px;
+            color: #707070;
+        }
+
+
+        /* #customers tr:nth-child(even) {
+            background-color: #cecece;
+        } */
+
+        #customers tr:hover {
+            background-color: rgb(233, 233, 233);
+        }
+
+        #customers th {
+            /* padding-top: 12px;
+            padding-bottom: 12px; */
+            text-align: center;
+            background-color: #c7c7c7;
+            color: #707070;
         }
     </style>
 
@@ -46,21 +77,31 @@
         <section>
         </section>
         <aside>
-            <span style="font-size:18px; margin:0 auto">
-                โรงเรียนหาดใหญ่วิทยาลัย <br>
-                [ ปีการศึกษา 2551 - 2556 ]<br>
-                ห้องเรียนโครงการพัฒนาและส่งเสริมผู้ที่มีความสามารถพิเศษ<br>
-                ทางด้านวิทยาศาสตร์ - คณิตศาสตร์ (SMA)<br>
-                <br>
-                คณะเภสัชศาสตร์ มหาวิทยาลัยขอนแก่น<br>
-                [ ปีการศึกษา 2557 - 2559 ]<br>
-                เกรดเฉลี่ยสะสม 3.37<br>
-                <br>
-                คณะวิศวกรรมศาสตร์ ภาควิชาคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น<br>
-                [ ปีการศึกษา 2560 - ปัจจุบัน ]<br>
-                เกรดเฉลี่ยสะสม 3.93<br>
-            </span>
 
+            <table id="customers" style="font-size:18px;  margin:0 auto">
+                <tr>
+                    <th>สถาบัน</th>
+                    <th>ปีการศึกษา</th>
+                    <th>หมายเหตุ</th>
+                </tr>
+                <tr>
+                    <td>โรงเรียนหาดใหญ่วิทยาลัย</td>
+                    <td>2551 - 2556</td>
+                    <td>ห้องเรียนโครงการพัฒนาและส่งเสริมผู้ที่มีความสามารถพิเศษ
+                        ทางด้านวิทยาศาสตร์ - คณิตศาสตร์ (SMA)</td>
+                </tr>
+                <tr>
+                    <td>คณะเภสัชศาสตร์<br> มหาวิทยาลัยขอนแก่น</td>
+                    <td>2557 - 2559</td>
+                    <td>เกรดเฉลี่ยสะสม 3.37</td>
+                </tr>
+                <tr>
+                    <td>คณะวิศวกรรมศาสตร์ ภาควิชาคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น</td>
+                    <td>2560 - ปัจจุบัน</td>
+                    <td>เกรดเฉลี่ยสะสม 3.93</td>
+                </tr>
+
+            </table>
 
 
         </aside>
